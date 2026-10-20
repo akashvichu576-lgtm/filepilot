@@ -1,0 +1,22 @@
+FILEPILOT 2.0 — MANUAL CHECKS
+
+1. Fresh start: Overview shows empty statistics, scan form, illustration and guidance.
+2. Try demo: Eight sample files are indexed; no files move. One extra copy is reported.
+3. Review: Edit the invoice name. The destination preview must update with the edit.
+4. Search: Search the edited name. Only matching files show; hidden selections persist.
+5. Filter: Switch categories and return. Changes to category/name/selection remain.
+6. Approval: Approve, then change selection or folder layout. Approval must clear.
+7. CSV/JSON: Export after editing. The export matches final names and inclusion choices.
+8. Duplicates: Show one group of two identical files. No deletion or saved-space claim.
+9. Settings: Disable recursion, add *.tmp exclusion, choose date folders. Navigate away
+   and return. Preferences persist for the current browser session.
+10. Organise: Use a practice folder, select Unique only, approve, and organise.
+    Seven files move; the extra copy stays. The run appears in Activity.
+11. Undo: Confirm restore. Seven files return to their original names and locations.
+12. Scan errors: Enter a missing path. A readable error appears and no files move.
+13. Offline: Disable local AI and scan successfully without Ollama.
+14. Ollama unavailable: Enable local AI with no service. Scan falls back with a notice.
+15. Fresh demo: A new folder is created; existing sample or user files are never reset.
+16. Small window: Sidebar collapses, cards stack, and review tables remain scrollable.
+
+AUTOMATED: run_tests.bat runs all 14 unit and Streamlit interface tests.

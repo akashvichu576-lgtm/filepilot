@@ -1,0 +1,4 @@
+Agentic AI Mini Project Report
+Course: Agentic AI
+This assignment explains a supervisor agent and specialised worker agents.
+

@@ -1,0 +1,4 @@
+INVOICE
+Internet subscription payment receipt
+Amount: 999
+
